@@ -1,0 +1,78 @@
+:root{
+    --primary-color: #adf9d4;
+    --secondary-colur:#1fd8a4;
+    --bg-color: #0d1512;
+}
+
+    
+ @font-face {
+        font-family: myfont;
+        src: url(DroidSansMono.ttf);
+}
+
+body {
+    background:var(--bg-color);
+    color:var(--primary-color);
+    padding: 14px;
+    margin: 25px;
+    font-family: myfont;
+
+.darkertext{
+    color:var(--secondary-colur);
+}
+
+}
+.avatar {
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+
+.avatar > img {
+    border-radius: 50%;
+    width: 100%;
+    
+}
+
+.funfacts{
+    display: block;
+    padding-top: 30px;
+    font-family: inherit;
+
+}
+
+.search-input{
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.btn{
+    display: block;
+    Margin-right:auto;
+    margin-left:auto;
+    margin-top:12px;
+    padding: 10px 16px;
+    background:#1fd8a4;
+    border-radius: 8px;
+    font-weight: bolder;
+    border: 1px solid #1fd8a4;
+    font-family: inherit;
+}
+
+.link{
+    display: flex;
+   justify-content: center;
+    margin-top:130px;
+    font-family: inherit;
+    
+
+}
+a:hover {
+    color:#1fd8a4
+
+}
